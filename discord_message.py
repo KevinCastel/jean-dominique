@@ -1,8 +1,6 @@
-from calendar import c
 import re
 
 from os import system
-from tkinter import N
 
 from discord import command
 from matplotlib.pyplot import cm

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <fr>
+    <message>
+      <welcome_message>"Bonjour! Bonsoir! @everyone"</welcome_message>
+      <social_network_joke>"Désormais je pourrais me sentir aussi présent que les réseaux sociaux"</social_network_joke>
+      <prevent_get_role>"Ainsi j'aimerais juger les membres par leurs rôles sans de mauvaise attention"</prevent_get_role>
+      <prevent_say_yes>"@{chief_guild.mention}, repondez moi par 'oui' sans quoi inutile de me répondre."</prevent_say_yes>
+      <prevent_rule_exploring_role>"Discordesque! @{chief_guild.mention}, nous allons parcourir tout les rôles en vous demandant si ce dernier pourra s'occuper de moi. Vous répondrez par 'oui' ou pas 'non'"</prevent_rule_exploring_role>
+      <prevent_time_exploring_role>"Si après 5 minutes ce processus n'est pas terminé alors il vous faudra réecrire 'oui.'"</prevent_time_exploring_role>
+      <start_exploring_role>"Commençons:"</start_exploring_role>
+      <prevent_role_add>"{chief_guild}, Souhaiteriez-vous que les personnes du {role} s'occupe de moi?"</prevent_role_add>
+      <happy_message>"Discordesque!"</happy_message>
+      <prevent_role_authorized>"Voici la liste des personnes autorisaient à m'administrer"</prevent_role_authorized>
+      <prevent_switch_environnement>"Passons à mon environnement, j'exige que vous me répondez par 'oui' sans quoi inutile de me répondre."</prevent_switch_environnement>
+      <double_question>"Alors? Alors?"</double_question>
+      <prevent_question>"Mon environnement existe-il?"</prevent_question>
+      <prevent_existing_environnement>"Discordesque! Il existe!"</prevent_existing_environnement>
+      <prevent_help>"Voici les commandes d'aides:"</prevent_help>
+      <show_game_room>"Discordesque! Je vous charge ce que vous devriez taper alors:"</show_game_room>
+      <prevent_modify_option>"Discordesque! Vous pouvez modifier vos paramètres en tapant la lettre le précédant."</prevent_modify_option>
+      <prevent_confirm>"'-confirmer' pour jouer; '-annuler' pour quitter cette demande."</prevent_confirm>
+      <modify_life>"Discordesque! Modifiez donc la vie pour cette partie ('0' est sinigie l'infinie)"</modify_life>
+      <prevent_canceling_option>"PS:'-retour' et vous reviendrez au menu de paramétrage \n '-annuler' est toujours disponible."</prevent_canceling_option>
+      <!--happy_message-->
+      <prevent_back_gamedata>"Revoici les informations de jeu:"</prevent_back_gamedata>
+      <prevent_main_command_game>"PS:'-annuler' et '-confirmer' sont utilisables."</prevent_main_command_game>
+      <game_won>"Discordesque! Bravo! Félicitation @{player.mention}"</game_won>
+      <prevent_add_word>"Tapez-donc le mot que vous souhaiteriez ajouter:"</prevent_add_word>
+      <prevent_word_space>"Discordesque! En revanche, je troque les espace '-' puis bon le mot sera en minuscule."</prevent_word_space>
+    </message>
+    <errors>
+      <game_loss>"Hélas...! @{user.mention} vous avez perdu"</game_loss>
+      <environnement_not_existing>"Saperlipopette! Je l'ais créer."</environnement_not_existing>
+      <in_game_access_denied>"@{user.mention}, vous êtes en jeu!"</in_game_access_denied>
+      <in_option_access_denied>"Saperlipopette...! Dites-donc @{user.mention}, vous devriez finir de régler vos paramètres!"</in_option_access_denied>
+      <environnement_not_here>"Saperlipopette! Mon environnement n'est pas installé!"</environnement_not_here>
+    </errors>
+    <command>
+      <add_word>-ajoute</add_word>
+      <yes_command>oui</yes_command>
+      <confirm_command>:confirmer</confirm_command>
+      <play_command>-jouer</play_command>
+      <clear_command>:effacer</clear_command>
+      <not_command>non</not_command>
+    </command>
+  </fr>
+  <en>
+    <message>
+      <welcome_message>"Hello! Hi There! @everyone"</welcome_message>
+      <social_network_joke>"Now I could make myself as present as social network "</social_network_joke>
+      <prevent_get_role>"Here, I wouldjudge all members by theirs roles without bad plan!"</prevent_get_role>
+      <prevent_say_yes>"@{chief_guild.mention}, respond me by 'yes' if not don't say anything."</prevent_say_yes>
+      <prevent_rule_exploring_role>"Discordesque! @{chief_guild.mention}, we're gonna to explore every role during this I'm gonna to ask to you if this role would being able to works with me!So aswell you're gonna to respond by 'yes' or 'no'"</prevent_rule_exploring_role>
+      <prevent_time_exploring_role>"If after 5 minuts this process isn't finished so you're gonna to have to rewrite 'yes'."</prevent_time_exploring_role>
+      <start_exploring_role>"Let's start:"</start_exploring_role>
+      <prevent_role_add>"{chief_guild}, Would you wish to members from {role} can work with me?"</prevent_role_add>
+      <happy_message>"Discordesque!"</happy_message>
+      <prevent_role_authorized>"Here, we've got authorized members for working with me!"</prevent_role_authorized>
+      <prevent_switch_environnement>"Let's go to my environnement, I wish that you should respond me by 'yes' if not you shouldn't answer me."</prevent_switch_environnement>
+      <double_question>"So ? So?"</double_question>
+      <prevent_question>"Does my environnement exists?"</prevent_question>
+      <prevent_existing_environnement>"Discordesque! He does!"</prevent_existing_environnement>
+      <prevent_help>"Here the list of commands:"</prevent_help>
+      <show_game_room>"Discordesque! I'm gonna to load game commands that you'll should type:"</show_game_room>
+      <prevent_modify_option>"Discordesque! You can modify parameters (value options) after typed the letter that is before the option."</prevent_modify_option>
+      <prevent_confirm>"'-confirm' for confirm your startig game and '-cancel' for cancel game asked."</prevent_confirm>
+      <modify_life>"Discordesque! Modify the life for this game ('0' means the inifity)"</modify_life>
+      <prevent_canceling_option>"PS:'back' make you return to main menu.\n'-cancel' is disponible yet!"</prevent_canceling_option>
+      <!--happy_message-->
+      <prevent_back_gamedata>"Let's return to game data:"</prevent_back_gamedata>
+      <prevent_main_command_game>"PS:'-cancel' and '-confirm' are usable."</prevent_main_command_game>
+      <game_won>"Discordesque! Bravo! You won @{player.mention}"</game_won>
+      <prevent_add_word>"Type your new word:"</prevent_add_word>
+    </message>
+    <errors>
+      <environnement_not_existing>"Saperlipopette! The environnnement is not existing so I've created!"</environnement_not_existing>
+      <game_loss>"Woops...! @{player.mention}, you've lost your game... anyway \n keep you strongly mind for the next game ;)"</game_loss>
+      <in_game_access_denied>"@{player.mention}, you are playing!"</in_game_access_denied>
+      <in_option_access_denied>Saperlipopette...! Hey @{user.mention}, you should finish to set your (new) parameter</in_option_access_denied>
+      <environnement_not_here>"Saperlipopette...! My environnement isn't here!"</environnement_not_here>
+    </errors>
+    <command>
+      <add_word>:add</add_word>
+      <yes_command>yes</yes_command>
+      <confirm_command>:confirm</confirm_command>
+      <play_command>-play</play_command>
+      <clear_command>:clear</clear_command>
+      <not_command>no</not_command>
+    </command>
+  </en>
+</root>

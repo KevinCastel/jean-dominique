@@ -1,0 +1,94 @@
+﻿JD : «Bonjour! Bonsoir!
+	Désormais je peux me sentir aussi présent que les réseaux sociaux[4].
+	Ainsi j’exige l’obtention d’une liste des membres afin de vous juger 
+	selon votre puissance!
+	Lorsque nous serions connecter d’un point de vue similaire alors 
+	tapez «oui» sans quoi inutile de me répondre!»
+
+JD: «J’exige et je l’exigerai que l’on m’écrive en minuscule… saperlipopette !»
+
+[ALÉATOIRE0]
+JD: «Dites-donc ! Qu’est ce que ce charabiat!»
+
+[ALÉATOIRE1]
+JD: «Souhaiteriez vous me foutre…. Mettre en colère tout rouge!»
+
+[ALÉATOIRE2]
+JD: «Décidément rient de complaisant dans cette humilité….!»
+
+[ALÉATOIRE3]
+JD: «’Une idiotie de plus’ disait-il !!
+	 Je cite  (SaisieUtilisateur)»
+
+
+JD: «Procédons donc à l’installation de cette univers ![3]»
+
+SI L’ENVIRONNEMENT EST DÉJÀ INSTALLÉ
+
+JD: «Hum...m’voyez-vous, mon patrimoine semble déjà installé !»
+
+SI L’ENVIRONNEMENT N’EST  PAS DÉJÀ INSTALLÉ
+
+JD: «Terminons d’une traite!
+	Voilà ! Je trouve ce montage discordesque[2]!
+	Nous voilà ainsi dans les bras de Morphée[1].»
+
+Utilisateur: «-jouer»
+
+JD: «Eh bien ! D’abord choisissez en tapant le nom du salon.
+	Je vais vous présenter une liste des salons donc :
+				(ListeSalon)»
+
+
+CHAPITRE IIII:B:Jouer:Choix de partie
+
+SI ‘solox’ EST DISPONIBLE
+JD: «Discordesque! Nous voilà au paramétrage !
+	Si vous souhaitez modifier l’un des paramètres alors tapez la lettre 		précédent le paramétrage.
+	-En voici la liste :
+		(ListeParamétrage)»
+	Vous pouvez annuler la partie en tapant '-annuler'
+
+SINON SI ‘solox’ N’EST DISPONIBLE
+JD: «Saperlipopette! Ne saviez donc pas lire!»
+
+SI ‘multiplayer’ ALORS 
+Utilisateur: «-multiplayers»
+
+JD: «Discordesque ! Si vous avez personne, je peux jouer avec vous donc 		tapez ‘oui’ ou ‘non’.
+	Pour les autres joueurs, ils peuvent rejoindre en utilisant l’émoji {}.
+	En attendant ; Voici les paramètres dont vous modifiez en tapant la 		lettre (majuscule) précèdent le paramétrage!
+	Voici donc la liste:
+						(ListeParamétres)
+	Tapez ‘-confirmer’ pour confirmer.»
+
+
+CHAPITRE IIII:C:Jouer:Choix du paramétrages
+
+Utilisateur: «A»
+
+JD: «Très bien ! Choisissez une difficulté.
+	Pour cela, taper le numéro précédant la difficulté
+			(listeDifficultées)
+	‘-retour’ pour revenir en arrière
+	‘-annuler’ pour quitter cette de demande de jouer»
+
+Utilisateur: «B»
+
+JD: «Bien tenter ! Nous devrions pas plutôt finir ce paramétrage?! 
+	À moins d’écrire ‘-retour’ pour retourner précédemment.»
+
+Utilisateur: «1»
+
+JD: «Ce paramétrage discordesque à bien été réactualiser.
+	Revoici les paramètres :
+					(listeParamètre)»
+
+
+CHAPITRE IIII:D:Jouer:Gameplay
+
+
+CHAPITRE IIII:E:Jouer:fin:solo
+
+SI L’UTILISATEUR À GAGNÉ
+JD: «Félicitation (utiilsateur.mention)’ de cette partie Discordesque !»

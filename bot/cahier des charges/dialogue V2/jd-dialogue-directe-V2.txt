@@ -1,0 +1,158 @@
+Jean-Dominique – Dialogue V2
+
+Jean-Dominique est un personnage drôle quelques fois antipathique.
+Jean-Dominique utilisera du vocabulaire à lui tel-que «saperlipopette», qui sera utiliser enfin de phrase afin d’exprimer sa colère contre quelqu’un. 
+«Flûte» sera utilisé en début de phrase pour exprimer un regret de sa part.
+«Discordesque» quant-à ce mot, il sera utilisé afin d’exprimer le sentiment de bien être. 
+Il utilisera beaucoup de comparaison (souvent métaphorique).
+
+
+SOMMAIRE :
+
+		-Chapite I:Installation
+		-Chapite II:Installation et erreur (général)
+		-Chapite III:Installation environnement
+		-Chapite IIII:A:Jouer (chapitre avec sans partie)
+		-Chapite IIII:B:Jouer:Initial
+		-Chapite IIII:C:Jouer:choix de partie
+		-Chapite IIII:D:Jouer:Choix du paramétrage
+		-Chapite IIII:E:Jouer:Gameplay
+		-Chapite IIII:F:Jouer:Fin:soloI & soloII
+
+
+
+
+
+
+
+CHAPITRE I:Installation
+
+JD : «Bonjour! Bonsoir!
+	Désormais je peux me sentir aussi présent que les réseaux sociaux[4].
+	Ainsi j’exige l’obtention d’une liste des membres afin de vous juger 		selon votre puissance!
+	Lorsque nous serions connecter d’un point de vue similaire alors 			tapez «oui» sans quoi inutile de me répondre!»
+
+Chapitre II:installation
+
+Utilisateur: «oUi»
+
+JD: «J’exige et je l’exigerai que l’on m’écrive en minuscule… saperlipopette !»
+
+*L’utilisateur qui écrivit quelques choses de mystérieux.
+
+[ALÉATOIRE0]
+JD: «Dites-donc ! Qu’est ce que ce charabiat!»
+
+[ALÉATOIRE1]
+JD: «Souhaiteriez vous me foutre…. Mettre en colère tout rouge!»
+
+[ALÉATOIRE2]
+JD: «Décidément rient de complaisant dans cette humilité….!»
+
+[ALÉATOIRE3]
+JD: «’Une idiotie de plus’ disait-il !!
+	 Je cite  (SaisieUtilisateur)»
+
+
+
+
+CHAPITRE III:Installation Environnemental
+
+Utilisateur: «oui»
+
+JD: «Procédons donc à l’installation de cette univers ![3]»
+
+SI L’ENVIRONNEMENT EST DÉJÀ INSTALLÉ
+
+JD: «Hum...m’voyez-vous, mon patrimoine semble déjà installé !»
+
+SI L’ENVIRONNEMENT N’EST  PAS DÉJÀ INSTALLÉ
+
+JD: «Terminons d’une traite!
+	Voilà ! Je trouve ce montage discordesque[2]!
+	Nous voilà ainsi dans les bras de Morphée[1].»
+
+
+CHAPITRE IIII:A:Jouer:Initial
+
+Utilisateur: «-jouer»
+
+JD: «Eh bien ! D’abord choisissez en tapant le nom du salon.
+	Je vais vous présenter une liste des salons donc :
+				(ListeSalon)»
+
+
+
+
+
+
+
+
+
+
+CHAPITRE IIII:B:Jouer:Choix de partie
+
+SI ‘solox’ EST DISPONIBLE
+JD: «Discordesque! Nous voilà au paramétrage !
+	Si vous souhaitez modifier l’un des paramètres alors tapez la lettre 		précédent le paramétrage.
+	-En voici la liste :
+		(ListeParamétrage)»
+
+SINON SI ‘solox’ N’EST DISPONIBLE
+JD: «Saperlipopette! Ne saviez donc pas lire!»
+
+SI ‘multiplayer’ ALORS 
+Utilisateur: «-multiplayers»
+
+JD: «Discordesque ! Si vous avez personne, je peux jouer avec vous donc 		tapez ‘oui’ ou ‘non’.
+	Pour les autres joueurs, ils peuvent rejoindre en utilisant l’émoji {}.
+	En attendant ; Voici les paramètres dont vous modifiez en tapant la 		lettre (majuscule) précèdent le paramétrage!
+	Voici donc la liste:
+						(ListeParamétres)
+	Tapez ‘-confirmer’ pour confirmer.»
+
+
+
+
+
+
+
+
+
+
+
+
+
+CHAPITRE IIII:C:Jouer:Choix du paramétrages
+
+Utilisateur: «A»
+
+JD: «Très bien ! Choisissez une difficulté.
+	Pour cela, taper le numéro précédant la difficulté
+			(listeDifficultées)
+	‘-retour’ pour revenir en arrière
+	‘-annuler’ pour quitter cette de demande de jouer»
+
+Utilisateur: «B»
+
+JD: «Bien tenter ! Nous devrions pas plutôt finir ce paramétrage?! 
+	À moins d’écrire ‘-retour’ pour retourner précédemment.»
+
+Utilisateur: «1»
+
+JD: «Ce paramétrage discordesque à bien été réactualiser.
+	Revoici les paramètres :
+					(listeParamètre)»
+
+
+CHAPITRE IIII:D:Jouer:Gameplay
+
+
+
+
+
+
+CHAPITRE IIII:E:Jouer:fin:solo
+
+SI L’UTILISATEUR À GAGNÉ
+JD: «Félicitation (utiilsateur.mention)’ de cette partie Discordesque !»

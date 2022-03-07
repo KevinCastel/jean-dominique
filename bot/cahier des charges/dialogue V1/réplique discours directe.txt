@@ -1,0 +1,99 @@
+JD:-"Bonjour! Bonsoir! @everyone"
+-"Désormais je peux me sentir présent!"
+-"Je me sentirais utile lorsque l'environnement de jeu sera aussi présent que moi...!",
+-"C'est pourquoi j'aimerais obtenir une liste des correspondants, je joignerais les individus très piussant pour s'occuper de moi-même."
+-"J'ai assez parlé..écrit..."
+-"J'exige que nous commencions maintenant, si vous êtes en accordances écrivez moi donc 'oui' sans quoi inutile de m'écrire...!"]
+
+Utilisateur-"abc"
+
+JD:*Se moquant et répétant la saisie utilisateur
+
+[OU]-"Souhaiteriez-vous me mettre colère tout rouge?!"
+[OU]-C'est de quoi à ce que j'en finisse ronchon!"
+[OU]-Rient de complaisant dans cette humité"
+[OU]Saperlipopette, une idiotie de plus..."
+
+Utilisateur:-"Oui"
+
+JD:-"Saperlipopette ! Si j'exige que l'on écrive en minuscule, ce n'est pas pour des clopinettes...!"
+
+Utilisateur:"oui"
+
+JD:-"Bien! J'imagine que vous attendiez que je fasse ma part des choses! Saperlipopette!
+-"Je m'exige ainsi de vous montrer une liste! Puis saperlipopette! Inutile de trouver ma liste d'une horribilité impitoyable..."
+				{LISTE DES MEMBRES}
+-"Bon! Finissons-en! Saperlipopette!"
+-"D'abord, m'voyez-vous?! Je n'aimerais pas vous forcer ainsi à finir cette tâche épuisante, m'voyez-vous ?!"
+"C'est pourquoi si vous souhaitez continuer, veillez à l'écrire 'oui' sans quoi inutile de me répondre! Saperlipopette!"
+
+Utilisateur:"oui"
+
+JD:-"Terminons de cette traite le processus d'installation!"
+-"J'exige de pouvoir créer ma catégorie avec mes salons!"
+-"Saperlipopette! J'allais oublier votre avis..."
+-"Bon! Si vous êtes de mon point de vue, écrivez moi "oui" sans
+quoi inutile de m'écrire! Saperlipopette!"
+
+Utilisateur:-"oui"
+
+[OU]JD:-"Ahah! Comme quoi! Ce que j'exige est déjà présent
+[OU]-"J'ai ainsi créer ce que j'exigeais...! Saperlipopette!"
+-"Lorsque vous aurez besoin d'un héro, n'hésitez pas à me soliciter sinon vous passerez à côté d'une aide
+de qualité! Saperlipopette!"
+			{LISTE COMMANDE AIDE}
+
+Utilisateur:-"-jouer"
+
+JD:-"Vous désiriez donc jouer? Mais... n'auriez vous des bon point? Oui des bon point!
+-"Saperlipopette! Qu'est ce que c'est? Bien! Les bon points comme en école primaire?
+-"Ce n'était pas drôle?! Vous m'croyez...? ...croyez moins drôle que vous? Saperlipopette!"
+-"Bon! Trêve de plaisanterie! Je vais vous présenter les salons de jeu sous forme de liste."
+-"Pour choissir le salon?
+-"Taper le nombre précédant le salon! Pas de sautise, ma parole! Saperlipopette!"
+				{LISTE SALON DE JEU}
+-"PS:'-retour' vous permettra de retourner en arrière!"
+
+Utilisateur:-"-retour"
+
+[OU]JD:-"Très bien!"
+	{MESSAGE SELON UTILISATEUR OU EN EST}
+
+[OU]Utilisateur:-"1"
+
+[OU]Utilisateur:-"2"
+
+[OU]Utilisateur:"-3"
+
+JD:-"Très bien! Bien! Par contre..., n'ayez crainte si une sensation d'être lus contre votre concentement est sentit!"
+-"J'admets ma crainte d'être battus par vous... hormis quelques temps où j'ai des doutes sur le fait d'une défaite"
+-"Trêve de bavardage litéraire...! Je vais vous fournir un tableau concernant les paramètre de la partie ainsi vous pourriez
+les modifiier!"
+-"Pour modifier le paramètre voulût, il vous faudra écrire la lettre précédant le paramétre:
+			{LISTE PARAMETRES PARTIE}
+-"PS:'-retour' reste écrivable ici aussi!"
+
+[SI SAISIE==3] +-"Je peux jouer avec vous si vous le souhaiter alors ou 'oui' ou 'non'"
+
+Utilisateur:-"-non"
+
+[OU]JD:-"Hein! Que vois-je? Une personne peureuse d'une défaite? Saperlipopette!"
+[OU]:-"Très bien! Je m'absitendrais de tricher!"
+    :-"J'espère ne pas trop faire peur!"
+
+JD:-"Je vois {mention} prête ce salon pour jouer."
+-"La partie peut commencer! {mention} tapez donc prêt!"
+
+[OU]Utilisateur: *Jouant en solo 
+
+JD:-"{mot} \n {lettres faites} \n Il vous reste {temps} secondes \n ????"
+
+[OU]Utilisateur: *Jouants en multijoueur
+
+JD:-"{mot} \n {lettres faites}\n TOUR:{mention} | {mention futur tour} \n Il vous reste {temps} secondes \n ????"
+
+
+
+
+
+

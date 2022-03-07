@@ -406,4 +406,4 @@ class Application(discord.Client):
 
 
 debug = Application()
-debug.run("ODU4MDQ1NjAzMzcxMjg2NTQ4.YNYbPQ.DlxEH8kOg8SPBVKDvcJ-e7U1Rpg")
+debug.run("ODU4MDQ1NjAzMzcxMjg2NTQ4.YNYbPQ.2gQNj0wtHgdW3Vapk-HpqjaOpgk")
